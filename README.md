@@ -11,6 +11,10 @@ NOTE: It can only be Console at the moment, while we are developing a GUI for th
 Kernel Simulator lets you simulate a _very_ early access for our **future** Kernel. It provides the built-in hardware
 detector, log-in manager (Just adduser), and the shell.
 
+## |-----+--> _About archive_ <--+-----|
+
+This branch is an archive for older and current source codes and binaries.
+
 ## |-----+--> _History_ <--+-----|
 
 Please note that dates mentioned here is for development date changes only.
