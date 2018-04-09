@@ -27,6 +27,8 @@ Please note that dates mentioned here is for development date changes only.
 
 **4/5/2018 - 0.0.2.1:** Fix bug for "Command Not Found" message, and added forgotten checking for root in "chhostname" and "chmotd".
 
+**4/9/2018 - 0.0.2.2:** Fix bug for network list where double PC names show up on both listing ways, Error handling on listing networks.
+
 ## |-----+--> _Manual pages_ <--+-----|
 
 The documentations can be found in source code of kernel simulator in `src/<platform>/<version>/Kernel Simulator/Documentation`
