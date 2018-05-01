@@ -9,7 +9,7 @@ INFO: This kernel simulator is not a final planned version of Kernel, since it w
 NOTE: It can only be Console at the moment, while we are developing a GUI for this simulator.
 
 Kernel Simulator lets you simulate a _very_ early access for our **future** Kernel. It provides the built-in hardware
-detector, log-in manager (Just adduser), and the shell.
+detector, log-in manager, and the shell.
 
 ## |-----+--> _About archive_ <--+-----|
 
@@ -30,6 +30,8 @@ Please note that dates mentioned here is for development date changes only.
 **4/9/2018 - 0.0.2.2:** Fix bug for network list where double PC names show up on both listing ways, Error handling on listing networks.
 
 **4/11/2018 - 0.0.2.3:** Fix crash on arguments after reboot, fix bugs, and more.
+
+**4/30/2018 - 0.0.3:** Fix bugs, Log-in system rewritten, added commands, added arguments, added permission system, custom colors, and more.
 
 ## |-----+--> _Manual pages_ <--+-----|
 
