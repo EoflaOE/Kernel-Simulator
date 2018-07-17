@@ -15,10 +15,6 @@ detector, log-in manager, and the shell.
 
 Cannot log-in to Kernel Simulator on **root** account? The password is the _backwards_ of **root**.
 
-## |-----+--> _0.0.3 Changes_ <--+-----|
-
-We have removed _bin_ folder and made the source code store directly in the _root_ folder of Kernel Simulator files to manage _releases_.
-
 ## |-----+--> _Download_ <--+-----|
 
 You can download the binary and the source code here: https://github.com/EoflaOE/Kernel-Simulator/releases
@@ -45,27 +41,7 @@ You can download the binary and the source code here: https://github.com/EoflaOE
 
 ## |-----+--> _History_ <--+-----|
 
-Please note that dates mentioned here is for development date changes only. If you want to access the old versions, see `archive` branch.
-
-**2/22/2018 - 0.0.1:** Initial release, normally, for Windows.
-
-**3/16/2018 - 0.0.1.1:** Added "showmotd", changed a message and better checking for integer overflow on Beep Frequency.
-
-**3/31/2018 - 0.0.2:** Code re-design, more commands, implemented basic Internet, argument system, changing password, and more changes.
-
-**4/5/2018 - 0.0.2.1:** Fix bug for "Command Not Found" message, and added forgotten checking for root in "chhostname" and "chmotd".
-
-**4/9/2018 - 0.0.2.2:** Fix bug for network list where double PC names show up on both listing ways, Error handling on listing networks.
-
-**4/11/2018 - 0.0.2.3:** Fix crash on arguments after reboot, fix bugs, and more.
-
-**4/30/2018 - 0.0.3:** Fix bugs, Log-in system rewritten, added commands, added arguments, added permission system, custom colors, and more.
-
-**5/2/2018 - 0.0.3.1:** Shell title edited in preparation for the big release, fix bugs with removing users, fix blank command, and added admin checking.
-
-**5/20/2018 - 0.0.4:** Change of startup text, customizable settings, Themes, Command-line arguments, Command argument and full parsing, Actual directory system (alpha), more commands, calculator, debugging with stack trace, debugging logs (unfinished), no RAM leak, fix bugs, and more.
-
-**5/22/2018 - 0.0.4.1:** Fix bugs in changing directory, Fix bugs in "help chdir", added alias for changing directory named "cd", and config update.
+If you want to see the history, go to the main branch of Kernel Simulator and see the history there.
 
 ## |-----+--> _Manual pages_ <--+-----|
 
