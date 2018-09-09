@@ -20,7 +20,7 @@ This kernel simulator simulates our **future** kernel that is planned by us and 
 
 ## |-----+--> _Build Instructions_ <--+-----|
 
-1. Install [Microsoft Visual Basic Express 2010](https://visual-basic-express.soft32.com/old-version/386190/2010.express/) or [Visual Studio 2010](https://www.visualstudio.com/vs/older-downloads/ "Sign-in required"), or higher.
+1. Install [Microsoft Visual Basic Express 2010](https://visual-basic-express.soft32.com/old-version/386190/2010.express/) or Visual Studio 2010, or higher.
 
 2. After installation, extract the source code, and open Microsoft Visual Basic / Studio 2010, and click on **Open Project...**
 
