@@ -1,8 +1,10 @@
 # |---+-> Kernel Simulator <-+---|
 
-The build is currently [![Build status](https://ci.appveyor.com/api/projects/status/9anm0jc0x9raoy8x/branch/master?svg=true)](https://ci.appveyor.com/project/EoflaOE/kernel-simulator/branch/master)
+AppVeyor: [![Build status](https://ci.appveyor.com/api/projects/status/9anm0jc0x9raoy8x/branch/master?svg=true)](https://ci.appveyor.com/project/EoflaOE/kernel-simulator/branch/master) 
 
-This kernel simulator simulates our **future** kernel that is planned by us and is not a final planned version of Kernel, since it was minimal. Cannot log-in to Kernel Simulator on **root** account? The password is the _backwards_ of **root**.
+TravisCI: [![Build Status](https://travis-ci.org/EoflaOE/Kernel-Simulator.svg?branch=master)](https://travis-ci.org/EoflaOE/Kernel-Simulator)
+
+This kernel simulator simulates our **future** kernel that is planned by us and is not a final planned version of Kernel, since it was minimal.
 
 ## |-----+--> _Notes_ <--+-----|
 
@@ -10,29 +12,27 @@ This kernel simulator simulates our **future** kernel that is planned by us and 
 
 - It can only be Console at the moment, while we are developing a GUI for this simulator.
 
-- The version of Firefox was old and so we cannot upload binary into release page. You have to build from source to use, or use an [archive](https://github.com/EoflaOE/Kernel-Simulator/tree/archive/bin/WindowsAndLinux), Because the machine that we're developing and building on doesn't have SSE2 support on our build CPU, **AMD Athlon XP 1500+**. To download, use above link.
+- We took out Windows XP support in favor of NuGet and .NET Framework 4.6.1.
 
 ## |-----+--> _Prerequisites_ <--+-----|
 
 1. For Windows systems
 
-- Windows XP or higher (Kernel Simulator is planned to use .NET Framework 4.7 or higher to optimize usage for Windows 10 systems, etc.)
+- Windows 7 or higher
 
-- [Microsoft .NET Framework 4.0](https://download.microsoft.com/download/1/B/E/1BE39E79-7E39-46A3-96FF-047F95396215/dotNetFx40_Full_setup.exe) or higher is **important and required** for Kernel Simulator to work fully. If you have Windows 8 or later, you might already have this version of Microsoft .NET Framework 4.0.
+- Microsoft .NET Framework 4.6.1 or higher
 
 2. For Unix systems
 
-- Any Unix system that contains the latest version of [Mono Runtime](http://www.mono-project.com/docs/about-mono/languages/visualbasic/). MonoDevelop is required to build from source.
-
-- MadMilkman DLL or installed library (DLL tested)
+- Any Unix system that contains the latest version of [Mono Runtime](http://www.mono-project.com/docs/about-mono/languages/visualbasic/). MonoDevelop(32-bit or 64-bit)/JetBrains Rider(64-bit) is required to build from source.
 
 ## |-----+--> _Build Instructions_ <--+-----|
 
 - For Windows systems
 
-1. Install [Microsoft Visual Basic Express 2010](https://visual-basic-express.soft32.com/old-version/386190/2010.express/) or Visual Studio 2010, or higher.
+1. Install Microsoft Visual Studio 2017, or higher.
 
-2. After installation, extract the source code, and open Microsoft Visual Basic / Studio 2010, and click on **Open Project...**
+2. After installation, extract the source code, open VS2017, and click on **Open Project...**
 
 3. Go to the source directory, and double-click the solution file
 
@@ -44,7 +44,7 @@ This kernel simulator simulates our **future** kernel that is planned by us and 
 
 7. In **Windows Explorer**, go to the build directory and then double-click on the executable file. 
 
-- For Unix systems
+- For Unix systems (MonoDevelop)
 
 1. Install [Mono Runtime](http://www.mono-project.com/docs/about-mono/languages/visualbasic/) and MonoDevelop.
 
@@ -54,9 +54,7 @@ This kernel simulator simulates our **future** kernel that is planned by us and 
 
 4. Add the following lines to **Kernel Simulator.vbproj**:
 
-	<VbcToolExe>vbc</VbcToolExe>
 	<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-	<GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
 	
 5. Change the output directory if you are building using **Release**.
 
@@ -98,10 +96,28 @@ Copyright (c) 2016, Mario Zorica
 
 License (Apache 2.0): https://github.com/MarioZ/MadMilkman.Ini/blob/master/LICENSE
 
+Newtonsoft.Json
+
+Source code: https://github.com/JamesNK/Newtonsoft.Json
+
+Copyright (c) 2007, James Newton-King
+
+License (MIT): https://github.com/JamesNK/Newtonsoft.Json/blob/master/LICENSE.md
+
+FluentFTP
+
+Source code: https://github.com/robinrodricks/FluentFTP
+
+Copyright (c) 2011-2016, J.P. Trosclair
+
+Copyright (c) 2016-present, Robin Rodricks
+
+License (MIT): https://github.com/robinrodricks/FluentFTP/blob/master/LICENSE.TXT
+
 ## |-----+--> _License - GNU GPL_ <--+-----|
 
     Kernel Simulator - Simulates our future planned Kernel
-    Copyright (C) 2018  EoflaOE
+    Copyright (C) 2018-2019  EoflaOE
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
