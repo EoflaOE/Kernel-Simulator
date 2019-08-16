@@ -14,6 +14,8 @@ This kernel simulator simulates our **future** kernel that is planned by us and 
 
 - We took out Windows XP support in favor of NuGet and .NET Framework 4.6.1.
 
+- This branch doesn't archive NuGet packages.
+
 ## |-----+--> _Prerequisites_ <--+-----|
 
 1. For Windows systems
@@ -51,16 +53,12 @@ This kernel simulator simulates our **future** kernel that is planned by us and 
 2. After installation, extrace the source code, and open MonoDevelop, and click on **Open...**
 
 3. Go to the source directory, and double-click the solution file
-
-4. Add the following lines to **Kernel Simulator.vbproj**:
-
-	<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
 	
-5. Change the output directory if you are building using **Release**.
+4. Change the output directory if you are building using **Release**.
 
-6. Click on the **Build** menu bar, and click on build button to compile.
+5. Click on the **Build** menu bar, and click on build button to compile.
 
-7. In **your file manager**, go to the build directory and then double-click on the executable file.
+6. In **your file manager**, go to the build directory and then double-click on the executable file.
 
 ## |-----+--> _History_ <--+-----|
 
@@ -72,11 +70,7 @@ The documentations can be found in source code of kernel simulator in `Kernel Si
 
 **Documentation - main page:** Information about Kernel Simulator, this page
 
-**Documentation - faq:** Frequently Asked Questions for Kernel Simulator
-
 **Documentation - contributing rules:** Conditions for contributing to Kernel Simulator
-
-**Documentation - troubleshooting:** List of known and user-reported problems
 
 * The text files will be moved to wiki section.
 
