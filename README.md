@@ -10,7 +10,7 @@ This kernel simulator simulates our **future** kernel that is planned by us and 
 
 - It can only be Console at the moment, while we are developing a GUI for this simulator.
 
-- We took out Windows XP support in favor of NuGet and .NET Framework 4.6.1.
+- We took out Windows XP support in favor of NuGet and .NET Framework 4.7.2.
 
 - This branch doesn't archive NuGet packages.
 
@@ -66,7 +66,7 @@ If you want to see the history, go to the main branch.
 
 **EoflaOE:** Owner of Kernel Simulator
 
-**Paomedia:** Icon creator
+**Oxygen Team:** Icon creator
 
 ## |-----+--> _Open Source Libraries used_ <--+-----|
 
